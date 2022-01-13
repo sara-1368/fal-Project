@@ -1,0 +1,13 @@
+
+  
+.main-section{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.main-img{
+    height: 100vh;
+}
+body{
+    background-image: linear-gradient(to right, #DFE9F3 , #FFFFFF);
+}

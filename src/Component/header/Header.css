@@ -1,0 +1,21 @@
+.menu-section {
+    position:absolute;
+    right: 0;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.menu-section a{
+    height: fit-content;
+    padding: 20px 37px;
+    text-decoration: none;
+    color:#000;
+    font-family: 'Rezvan';
+    
+}
+.menu-section a:first-child{
+    margin-left: 78px;
+    margin-right: 1px;
+    position: relative;
+    bottom: 27px;
+}
