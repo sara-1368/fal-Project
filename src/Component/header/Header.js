@@ -22,7 +22,7 @@ const Header=()=>{
         <Link to="/AboutUs"> درباره ما</Link>
     </section>
  <Routes>
-     {/* <Route exact path="/" element={<Main />}/> */}
+  y
       <Route path="/Fal" element={<Fal />}/>
         <Route path="/Ashaar" element={<Ashaar />}/>
      <Route path="/AboutUs" element={<AboutUs />}/>

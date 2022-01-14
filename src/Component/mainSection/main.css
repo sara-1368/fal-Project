@@ -25,3 +25,27 @@ body{
     line-height: 1.5;
     margin-right: 20px;
 }
+.main-text-section{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.main-button{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+.main-button button{
+    background-color: #ECC75B;
+    height: 38px;
+width: 80px;
+left: 782px;
+top: 408px;
+border-radius: 10px;
+outline: none;
+border:none;
+margin-left: 12px;
+margin-top: 15px;
+cursor: pointer;
+}

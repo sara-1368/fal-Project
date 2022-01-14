@@ -1,9 +1,9 @@
 import React from "react";
-
+import './fal.css'
 const Fal =()=>{
     return(
-        <div>
-            fal
+        <div  className="fal-section">
+        ...
         </div>
     )
 }
