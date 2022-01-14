@@ -1,13 +1,28 @@
+
+@font-face {
+  font-family: "Rezvan";
+  font-style: normal;
+  font-weight: bold;
+
+ src: local('Rezvan') url('/src/assets/font/Rezvan-fat.ttf') format('ttf');
+}
+body,html{
+  font-family: 'Rezvan'!important;
+
+}
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Rezvan'!important;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Rezvan';
 }

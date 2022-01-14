@@ -1,15 +1,6 @@
-
-@font-face {
-  font-family: 'Rezvan';
-  font-style: normal;
-  font-weight: normal;
- src:url('./assets/font/Rezvan-fat.ttf') format('ttf');
+.Rezvan{
+  font-family: "Rezvan";
 }
-body,html{
-  font-family: 'Rezvan'!important;
-
-}
-
 .App {
   text-align: center;
 }

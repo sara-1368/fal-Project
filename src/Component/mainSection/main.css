@@ -10,4 +10,18 @@
 }
 body{
     background-image: linear-gradient(to right, #DFE9F3 , #FFFFFF);
+    overflow-y: hidden;
+}
+.main-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: flex-start;
+    margin-right: 96px;
+}
+.main-text{
+    margin-top: 40px;
+    text-align: right;
+    line-height: 1.5;
+    margin-right: 20px;
 }

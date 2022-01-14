@@ -1,6 +1,5 @@
 .menu-section {
-    position:absolute;
-    right: 0;
+ 
     margin-top: 32px;
     display: flex;
     flex-direction: row-reverse;

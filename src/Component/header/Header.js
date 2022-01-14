@@ -9,7 +9,7 @@ import mainLogo from  '../../assets/image/logo.png'
 const Ashaar =()=><h3>ashaar</h3>;
 const AboutUs = () => <h3>aboutUs</h3>;
 
-const Menu=()=>{
+const Header=()=>{
 
    return(
 
@@ -17,12 +17,12 @@ const Menu=()=>{
     <Fragment>
    <section className='menu-section'>
     <Link to="/"> <img src={mainLogo}/></Link>
-        <Link to="/Fal">فال حافظ</Link>
+        <Link  to="/Fal">فال حافظ</Link>
         <Link to="/Ashaar"> گنجینه اشعار</Link>
         <Link to="/AboutUs"> درباره ما</Link>
     </section>
  <Routes>
-     <Route exact path="/" element={<Main />}/>
+     {/* <Route exact path="/" element={<Main />}/> */}
       <Route path="/Fal" element={<Fal />}/>
         <Route path="/Ashaar" element={<Ashaar />}/>
      <Route path="/AboutUs" element={<AboutUs />}/>
@@ -32,4 +32,4 @@ const Menu=()=>{
    )
 }
 
-export default Menu;
+export default Header;
