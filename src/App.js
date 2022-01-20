@@ -3,6 +3,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Main from './Component/mainSection/main'
 import Fal from  './Component/fal/Fal'
 import Ashaar from './Component/ashaar/asshar'
+import Ghazal from './Component/ashaar/ghazal/Ghazal'
 
 import './App.css';
 import './assets/font/Rezvan.ttf'
@@ -19,6 +20,7 @@ function App() {
       <Route path="/Fal" element={<Fal />}/>
         <Route path="/Ashaar" element={<Ashaar />}/>
      <Route path="/AboutUs" element={<AboutUs />}/>
+     <Route path="/Ghazal" element={<Ghazal />}/>
  </Routes>
 
    </BrowserRouter>

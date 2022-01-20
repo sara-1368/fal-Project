@@ -1,4 +1,4 @@
-.Lyrics-section{
+.ghazal-section{
     position: absolute;
     height: 100%;
     background-image: url('/src/assets/image/asshar.png');
@@ -8,30 +8,41 @@
     left: 0;
     top: 0;
     width: 100%;
- 
 }
-.left-bg{
-    background-image: url('/src/assets/image/asshar-2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height:328px;
-
-    flex: 0 0  59%;
+.ghazal-image
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ghazal-left-bg{
     transform: translateY(-50%);
+    background-color: #F5D36F;
+    height: 305px;
+    margin-top: 26px;
+    flex: 0 0 54%;
+    border: 1px solid #F4BB13;
+    padding:20px 50px;
 }
-.right-bg{
+.ghazal-right-bg{
     transform: translateY(-50%);
     background-color: #D0E3F5;
-    opacity: 0.5;
     height: 275px;
     margin-top: 26px;
-    flex: 0 0 41%;
+    opacity: 0.5;
+    border:1px solid #99C4EF;
+    padding: 20px;
+
 }
-.boxes{
+.ghazal-boxes{
     display: flex;
     flex-direction: row;
     position: relative;
     top: 50%;
 
+}
+.ghazal-content{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
 }
