@@ -1,4 +1,12 @@
 
+  @font-face {
+    font-family: "Rezvan";
+   src:url('/src/assets/font/Rezvan.ttf') format('truetype');
+  }
+  body,html{
+    font-family: Rezvan!important;
+  
+  }
   
 .main-section{
     display:flex;
